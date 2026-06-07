@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Salami Sanni Olaoseibikan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <img class="logo-img" src="assets/IMG_4004.PNG" alt="Salami Sanni Olaoseibikan logo" />
+        <div>
+          <p class="brand-title">Salami Sanni Olaoseibikan</p>
+          <p class="brand-subtitle">Creative digital portfolio</p>
+        </div>
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Modern design • Bold presence</p>
+          <h1>Portfolio for digital resume.</h1>
+          <p>
+            I build responsive websites with strong visual identity, seamless UX, and polished interactions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View work</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-grid">
+          <div>
+            <h2>About me</h2>
+            <p>
+              Salami Sanni Olaoseibikan is a skilled website developer with three years of professional experience specializing in building responsive, user-friendly, and high-performing web applications. Over the past three years, Sanni has mastered modern front-end technologies, ensuring seamless integration between clean user interfaces and robust server-side logic.                                                                      To demonstrate his technical capabilities and design philosophy, Sanni has developed a fully functional, three-page web application architecture consisting of a Home Page, a Services/Product Page, and a Dynamic Contact Page.I create modern, responsive websites with a clean visual style and strong brand energy.
+            </p>
+          </div>
+          <div class="stats-card">
+            <div>
+              <strong>3+</strong>
+              <span>Projects launched</span>
+            </div>
+            <div>
+              <strong>Responsive</strong>
+              <span>Design for every screen</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <h2>Featured projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Curriculum Vitae landing page</h3>
+            <p>High-conversion  CV landing page with bold contrast and clear calls to action.</p>
+            <a class="project-link" href="https://olacash.github.io/my-cv/">View project</a>
+          </article>
+          <article class="project-card">
+            <h3>MusicL HUB website</h3>
+            <p>Custom site where you can be able to download  audio music and music videos and a responsive layout.</p>
+            <a class="project-link" href="https://olacash.github.io/musical-invention/">View project</a>
+          </article>
+          <article class="project-card">
+            <h3>Brand refresh</h3>
+            <p>Visual update that pairs strong black and yellow accents with clean spacing.</p>
+            <a class="project-link" href="https://olacash.github.io/musical-invention/">View project</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-item">
+            <div class="skill-meta">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 95%"></div>
+            </div>
+          </article>
+          <article class="skill-item">
+            <div class="skill-meta">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 90%"></div>
+            </div>
+          </article>
+          <article class="skill-item">
+            <div class="skill-meta">
+              <span>Responsive Design</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 92%"></div>
+            </div>
+          </article>
+          <article class="skill-item">
+            <div class="skill-meta">
+              <span>UI/UX</span>
+              <span>67%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 87%"></div>
+            </div>
+          </article>
+          
+          
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <h2>Let's build something bold.</h2>
+          <p>Ready to launch a standout website? Send a message and let's get started.</p>
+        </div>
+        <a class="btn btn-primary" href="mailto:olaoseibikan232@gmail.com">Email me</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Salami Sanni Olaoseibikan</p>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.site-nav');
+      toggle.addEventListener('click', () => {
+        nav.classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
